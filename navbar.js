@@ -1,4 +1,4 @@
-"use strict"; 
+<script>"use strict"; 
 
 const body = document.body;
 const bgColorsBody = ["#ffb457", "#ff96bd", "#9999fb", "#ffe797", "#cffff1"];
@@ -46,3 +46,4 @@ window.addEventListener("resize", () => {
     offsetMenuBorder(activeItem, menuBorder);
     menu.style.setProperty("--timeOut", "none");
 });
+</script>
